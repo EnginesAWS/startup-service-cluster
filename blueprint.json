@@ -5,5 +5,14 @@
 		"explanation": "An infrastructure binder blueprint for the simplest AWS service clustering"
 	},
 	"bindings": [
+		{
+			"target": {
+				"repository": "https://github.com/EnginesAWS/container-service-cluster"
+			},
+			"configuration": {
+				"kms_key_id": "aws_kms_key.^^kms.identifier^^.id",
+				"log_group_name": "aws_cloudwatch_log_group.^^log_group.identifier^^.name"
+			}
+		},
 	]
 }
