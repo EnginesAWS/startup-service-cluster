@@ -1,0 +1,9 @@
+{
+	"identifier": "startup-service-cluster",
+	"about": {
+		"title": "Startup Service Cluster",
+		"explanation": "An infrastructure binder blueprint for the simplest AWS service clustering"
+	},
+	"bindings": [
+	]
+}
