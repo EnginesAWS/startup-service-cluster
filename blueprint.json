@@ -14,5 +14,15 @@
 				"log_group_name": "aws_cloudwatch_log_group.^^log_group.identifier^^.name"
 			}
 		},
+		{
+			"target": {
+				"repository": "https://github.com/EnginesAWS/kms"
+			}
+		},
+		{
+			"target": {
+				"repository": "https://github.com/EnginesAWS/log-group"
+			}
+		}
 	]
 }
