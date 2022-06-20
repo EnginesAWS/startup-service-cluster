@@ -9,10 +9,6 @@
 			"type": "configure",
 			"target": {
 				"repository": "https://github.com/EnginesAWS/container-service-cluster"
-			},
-			"configuration": {
-				"kms_key_id": "aws_kms_key.kms.id",
-				"log_group_name": "aws_cloudwatch_log_group.log_group.name"
 			}
 		},
 		{
