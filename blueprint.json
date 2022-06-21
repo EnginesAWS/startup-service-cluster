@@ -14,7 +14,7 @@
 		{
 			"type": "configure",
 			"target": {
-				"repository": "https://github.com/EnginesAWS/kms"
+				"repository": "https://github.com/EnginesAWS/cluster-key"
 			}
 		},
 		{
