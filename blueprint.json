@@ -4,30 +4,11 @@
 		"title": "Startup Service Cluster",
 		"explanation": "An infrastructure binder blueprint for the simplest service clustering"
 	},
-	"bindings": [
-		{
-			"type": "configure",
-			"target": {
-				"repository": "https://github.com/EnginesAWS/container-service-cluster"
-			}
-		},
-		{
-			"type": "configure",
-			"target": {
-				"repository": "https://github.com/EnginesAWS/cluster-key"
-			}
-		},
-		{
-			"type": "configure",
-			"target": {
-				"repository": "https://github.com/EnginesAWS/log-group"
-			}
-		},
-		{
-			"type": "configure",
-			"target": {
-				"repository": "https://github.com/EnginesAWS/iam-role"
-			}
-		}
+	"resources": [
+		{"type": "container_service_cluster"},
+		{"type": "container_task_definition"},
+		{"type": "cluster_key"},
+		{"type": "log_group"},
+		{"type": "iam_role"}
 	]
 }
