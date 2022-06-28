@@ -11,7 +11,7 @@
 		{"type": "log_group"},
 		{"type": "iam_role"},
 		{
-			"type": "acm-certificate",
+			"type": "acm_certificate",
 			"identifier": "cluster-cert",
 			"configuration": {
 				"domain_name": "dougs.engines.org"
