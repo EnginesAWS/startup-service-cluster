@@ -14,7 +14,9 @@
 			"type": "acm_certificate",
 			"identifier": "cluster-cert",
 			"configuration": {
-				"domain_name": "dougs.engines.org"
+				"domain_name": "dougs.engines.org",
+				"validation_method": "DNS",
+			    "create_before_destroy": true
 			}
 		}		
 	]
