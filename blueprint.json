@@ -6,7 +6,6 @@
 	},
 	"resources": [
 		{"type": "container_service_cluster"},
-		{"type": "container_task_definition"},
 		{"type": "cluster_key"},
 		{"type": "log_group"},
 		{"type": "iam_role"},
