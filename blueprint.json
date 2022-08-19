@@ -9,20 +9,19 @@
 		{"type": "cluster_key"},
 		{"type": "log_group"},
 		{"type": "iam_role"},
-				{"type": "iam_role_policy_attachment",
-		 "configuration": {
-		 "role": "iam_role",
-		 "policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
-		 }
+		{
+			"type": "iam_role_policy_attachment",
+			"configuration": {
+				"role": "iam_role",
+				"policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
+		 	}
 		 },
 		{
 			"type": "acm_certificate",
 			"configuration": {
 				"domain_name": "dougs.engines.org",
 				"validation_method": "DNS",
-			    "create_before_destroy": true,
-			    "memory" : 2048,
-			    "cpu" : 1024
+				"create_before_destroy": true
 			}
 		}		
 	]
