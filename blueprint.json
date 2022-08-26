@@ -12,10 +12,9 @@
 		{
 			"type": "iam_role_policy_attachment",
 			"configuration": {
-				"role": "iam_role",
 				"policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
 		 	}
-		 },
+		},
 		{
 			"type": "acm_certificate",
 			"configuration": {
