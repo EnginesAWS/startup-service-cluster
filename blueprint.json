@@ -14,6 +14,12 @@
 			"configuration": {
 				"policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
 		 	}
+		},		
+		{
+			"type": "iam_role_policy_attachment",
+			"configuration": {
+				"policy_arn": "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
+		 	}
 		},
 		{
 			"type": "acm_certificate",
