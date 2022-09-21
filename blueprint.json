@@ -11,12 +11,14 @@
 		{"type": "iam_role"},
 		{
 			"type": "iam_role_policy_attachment",
+			"identifier": "container_service_role",
 			"configuration": {
 				"policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
 		 	}
 		},		
 		{
 			"type": "iam_role_policy_attachment",
+			"identifier": "container_registry",
 			"configuration": {
 				"policy_arn": "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
 		 	}
