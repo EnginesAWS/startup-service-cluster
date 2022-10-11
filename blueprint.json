@@ -14,7 +14,7 @@
 		},
 		{
 			"type": "iam_role_policy_attachment",
-			"identifier": "container_service_role",
+			"identifier": "execution_role",
 			"configuration": {
 				"policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
 		 	}
