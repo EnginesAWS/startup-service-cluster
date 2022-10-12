@@ -21,14 +21,6 @@
 		 	}
 		},		
 		{
-			"type": "iam_role_policy_attachment",
-			"identifier": "secrets_manager",
-			"configuration": {
-				"policy_arn": "arn:aws:iam::aws:policy/SecretsManagerReadWrite",
-				"role_binding": "execution_role"
-		 	}
-		},
-		{
 			"type": "acm_certificate",
 			"configuration": {
 				"domain_name": "dougs.engines.org",
